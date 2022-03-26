@@ -71,7 +71,9 @@ a {
 /* HEADEAR */
 
 header {
-    background-color: crimson;
+    /* background-color: crimson; */
+    /* Gradiente */
+    background: linear-gradient(to bottom, #aa0028 20%,#aa0028 20%,#da0436 80%);
     grid-area: header;
     grid-column: 1 / 5;
     grid-row: 1;
@@ -190,7 +192,9 @@ h3 {
 /* FOOTER */
 
 footer {
-    background-color: crimson; 
+    /* background-color: crimson; */
+    /* Gradiente */ 
+    background: linear-gradient(to bottom, #da0436 20%,#aa0028 80%,#aa0028 80%);
     grid-area: footer;
     grid-column: 1 / 5;
     grid-row: 5 / span 1;
