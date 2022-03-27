@@ -5,11 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="multimedia/LogoTecnocic.jpg">
 	<title>Home</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 	<!-- fila de logo + nav --> 
-	<header>
+	<header class="container-xl">
 		<div class="header">
 			<h1 class="header__titulo">TECNOCIC SOLUCIONES</h1>
 			<a class="header__logo" href="index.html" target="_self"><img src="multimedia/LogoTecnocic.jpg" alt="IsoLogoTecnocic" width="10%"></a>
@@ -26,15 +27,25 @@
 	</header>
 	<!-- cierre de fila logo + nav -->
 	<!-- fila de información de mi sitio -->
-	<section class="main">
+	<section class="main container-xl">
 		<article class="introduccion">
 			<h2 class="introduccion__titulo"><a href="Index.html">Home</a></h2>
-			<h3 class="introduccion__descripcion">
-				<p>TECNOCIC Soluciones es una firma Consultora de Servicios de Ingeniería con un marcado perfil Técnico-Comercial integrada por Profesionales Ingenieros de gran trayectoria en las distintas ramas de la Ingeniería, la Industria y la Construcción.</p>
-				<p>Quienes integramos TECNOCIC contamos con reconocida experiencia en estos campos, lo que nos permite ofrecer un amplio abanico de alternativas y soluciones a la problemática que las Empresas del sector deben afrontar.</p>
+			<!-- <h3 class="introduccion__descripcion">
+				<p >TECNOCIC Soluciones es una firma Consultora de Servicios de Ingeniería con un marcado perfil Técnico-Comercial integrada por Profesionales Ingenieros de gran trayectoria en las distintas ramas de la Ingeniería, la Industria y la Construcción.</p>
+				<p >Quienes integramos TECNOCIC contamos con reconocida experiencia en estos campos, lo que nos permite ofrecer un amplio abanico de alternativas y soluciones a la problemática que las Empresas del sector deben afrontar.</p>
 				<p>Cualquiera sea el tamaño de los Proyectos y Obras que lidere su empresa, nuestros servicios siempre se adaptarán a los requisitos de alcance, calidad y plazos requeridos, respaldando el trabajo con la misma seriedad, responsabilidad y entusiasmo con la que afrontamos cada compromiso.<p>
 				<p>En TECNOCIC contamos con un sistema de gestión de calidad según ISO 9001, lo que nos permite mejorar continuamente nuestros procesos para beneficio de nuestros clientes y sus obras.</p>
-				</h3>
+			</h3> -->
+			<div class="introduccion_descripcion" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+				<h4 id="scrollspyHeading1">Nuestra empresa</h4>
+				<p>TECNOCIC Soluciones es una firma Consultora de Servicios de Ingeniería con un marcado perfil Técnico-Comercial integrada por Profesionales Ingenieros de gran trayectoria en las distintas ramas de la Ingeniería, la Industria y la Construcción.</p>
+				<h4 id="scrollspyHeading2"></h4>
+				<p>Quienes integramos TECNOCIC contamos con reconocida experiencia en estos campos, lo que nos permite ofrecer un amplio abanico de alternativas y soluciones a la problemática que las Empresas del sector deben afrontar.</p>
+				<h4 id="scrollspyHeading3"></h4>
+				<p>Cualquiera sea el tamaño de los Proyectos y Obras que lidere su empresa, nuestros servicios siempre se adaptarán a los requisitos de alcance, calidad y plazos requeridos, respaldando el trabajo con la misma seriedad, responsabilidad y entusiasmo con la que afrontamos cada compromiso.<p>
+				<h4 id="scrollspyHeading4">Certificación ISO</h4>
+				<p>En TECNOCIC contamos con un sistema de gestión de calidad según ISO 9001, lo que nos permite mejorar continuamente nuestros procesos para beneficio de nuestros clientes y sus obras.</p>
+			</div>
 		</article>
 		<picture class="asideL">
 			<img class="asideL__img" src="./multimedia/img_left.jpg" alt="Imagen lado izquierdo">
@@ -53,5 +64,6 @@
 		<h4>Instagram</h4>
 		<a href="https://www.instagram.com/" target="_blank"><img src="multimedia/InstagramLogo.svg" alt="InstagramLogo" width="auto"></a>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

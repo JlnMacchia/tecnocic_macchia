@@ -62,10 +62,10 @@ a {
     flex-direction: column;
 }
 
-.container {
+/* .container {
     max-width: 1080px;
     margin: 0 auto;
-}
+} */
 
 
 /* HEADEAR */
@@ -153,6 +153,23 @@ nav ul{
     grid-row: 3 / 4;
     display: grid;
     place-items: center;
+}
+
+.introduccion_servicios {
+    background-color: #F78181;
+    /* width: 200px;
+    margin: 20px; */
+    padding: 20px;
+    grid-area: introduccion;
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    display: grid;
+    place-items: center;
+}
+
+
+.introduccion_descripcion {
+    padding: 1em;
 }
 
 h2 {
