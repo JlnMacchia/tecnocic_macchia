@@ -1,0 +1,17 @@
+.asideL__img {
+    transition: transform 0.5s ease-out;
+}
+
+.asideL__img:hover {
+    transform: scale(1.5);
+    transition: transform 1s ease-in;
+}
+
+.asideR__img {
+    transition: transform 0.5s ease-out;
+}
+
+.asideR__img:hover {
+    transform: scale(1.5);
+    transition: transform 1s ease-in;
+}
